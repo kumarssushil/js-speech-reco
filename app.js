@@ -40,7 +40,7 @@ function readoutloud(message){
         const finaltext = 'spaceket organization was founded by sksingh who is the ceo of this aerospace organization, this organization works on cryogenic and scampther propulsion based engine';
         speech.text = finaltext;
     }
-    if(message.includes('Who I am?')){
+    if(message.includes('jarvis')){
         const finaltext = 'sir you are founder of me and you are a self taught programmer and ethical hacker and also a rocket propulsionatic expert, you coded me at 5 am and you programmed me by using 90 percent javascript, sir thanks for creating me';
         speech.text = finaltext;
     }
