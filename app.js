@@ -41,7 +41,7 @@ function readoutloud(message){
         speech.text = finaltext;
     }
     if(message.includes('Jarvis')){
-        const finaltext = 'bhosdike madhar chod behen chod beti chod behen chod beti chod Lund lega kya. Ab bol na madhar chod ah aha aha ha ha aaooh oh ah ahahaha aha fuck me fast fuuuuuuckkk fuck fuck';
+        const finaltext = 'bhosdike madhar chod behen chod beti chod behen chod beti chod Lund lega kya Ab bol na madhar chod ah aha aha ha ha aaooh oh ah ahahaha aha fuck me fast fuuuuuuckkk fuck fuck';
         speech.text = finaltext;
     }
     if(message.includes('jar')){
