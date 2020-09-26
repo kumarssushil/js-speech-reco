@@ -44,6 +44,11 @@ function readoutloud(message){
         const finaltext = 'sir you are founder of me and you are a self taught programmer and ethical hacker and also a rocket propulsionatic expert, you coded me at 5 am and you programmed me by using 90 percent javascript, sir thanks for creating me';
         speech.text = finaltext;
     }
+    if(message.includes('Jar')){
+        const finaltext = 'bhosdike. madhar chod behen chod beti chod Gand marvale';
+        speech.text = finaltext;
+    }
+
     if(message.includes('where I am now')){
         const finaltext = 'India, new delhi, greater kailash 1,block s , building number 360';
         speech.text = finaltext;
